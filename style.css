@@ -1,0 +1,156 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.pc {
+  display: none;
+}
+.container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.btn {
+  font-size: 35px;
+  height: 100%;
+  color: rgb(253, 78, 78);
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading {
+  margin-top: 45px;
+}
+
+.cards {
+  justify-items: center;
+  margin-top: 15px;
+  border-radius: 18px;
+  height: 200px;
+  width: 100%;
+  padding: 18px;
+  background-color: white;
+  box-shadow: 10px 10px 20px 20px rgb(233, 233, 233);
+}
+.cards1 {
+  justify-content: center;
+
+  align-items: center;
+  margin-top: 15px;
+  border-radius: 18px;
+  height: 200px;
+  width: 100%;
+  padding: 18px;
+  background-color: white;
+  box-shadow: 10px 10px 10px 10px rgb(233, 233, 233);
+
+  z-index: 1;
+}
+.text2 {
+  display: none;
+}
+.cards3 {
+  display: none;
+}
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+}
+.maxicanTaco {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+.row1 {
+  display: flex;
+  gap: 18px;
+}
+.text {
+  margin-top: 25px;
+
+  color: grey;
+}
+.line {
+  color: red;
+  font-weight: bold;
+}
+
+@media (min-width: 968px) {
+  .pc {
+    margin-left: 60px;
+    display: block;
+    margin-top: 50px;
+  }
+
+  nav {
+    display: none;
+  }
+  .flex {
+    margin-top: 50px;
+    display: flex;
+    gap: 18px;
+  }
+  .text {
+    display: none;
+  }
+  .heading {
+    margin-top: -450px;
+    display: flex;
+    gap: 120px;
+  }
+  .cards3 {
+    display: block;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 18px;
+    height: 200px;
+    width: 100%;
+    padding: 18px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgb(233, 233, 233);
+
+    z-index: 1;
+  }
+  .text2 {
+    display: block;
+  }
+  .htext {
+    font-size: 4rem;
+  }
+
+  .lgright {
+    margin-left: 320px;
+  }
+  .tick {
+    margin-top: 20px;
+    padding: 10px;
+    list-style: none;
+  }
+  li {
+    margin-top: 13px;
+    padding: 12px;
+    color: grey;
+  }
+  .add_btn {
+    margin-top: 50px;
+    padding: 8px;
+    width: 100px;
+    border-radius: 30px;
+    margin-left: 27px;
+    background-color: rgb(255, 78, 78);
+    border: none;
+    color: white;
+  }
+}
